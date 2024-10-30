@@ -1,0 +1,28 @@
+*{
+    margin: 0px !important;
+    padding: 0px;
+    border: nome;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 100% !important;
+    height: 100vh !important;
+}
+.tamanho{
+    gap: 10px;
+    width: 600px;
+    padding-left: 30px;
+    border: 2px solid rgba(38, 38, 39, 0.747);
+    border-radius: 5px;
+    background-color: #fcfcfc;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(211, 206, 206);
+}
