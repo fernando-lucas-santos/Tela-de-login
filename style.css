@@ -2,27 +2,66 @@
     margin: 0px !important;
     padding: 0px;
     border: nome;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
+}
+body{
+    width: 100vw;
+    height: 100vh !important;
+    
+    background-color: #ebebeb !important;
 }
 
-.content{
+main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.637);
     width: 100% !important;
-    height: 100vh !important;
+    height: 100vh !important;  
 }
-.tamanho{
+
+.container-fluid{
     gap: 10px;
-    width: 600px;
+    max-width: 600px;
+    height: 250px;
     padding-left: 30px;
-    border: 2px solid rgba(38, 38, 39, 0.747);
+    border: 1px solid rgba(38, 38, 39, 0.747);
     border-radius: 5px;
-    background-color: #fcfcfc;
+    background: linear-gradient(90deg, rgba(145,6,47,1) 0%, rgba(179,7,59,1) 37%, rgba(212,9,70,1) 85%);
+    position: relative;
+   
+   
 }
-.img{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(211, 206, 206);
+.form-floating{
+    max-width:350px !important;
+    height: 350px;
+    padding: 20px;
+    border: 1px solid rgba(38, 38, 39, 0.747);
+    box-shadow: 0px 1px 10px rgb(54, 54, 54);
+    background-color: #ffffff;
+    position: absolute;
+    left: -70px;
+    bottom: 0px !important;
+    border-radius: 5px;
+}
+.registro{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 180px;
+    font-size: 0.6rem;
+    line-height: 25px;
+    color: #ffffff;
+    
+}
+.btn{
+    margin-top: 2px !important;
+    padding: 2px !important;
+    font-size: 0.7rem !important;
+    font-weight: 600 !important;
+    background-color: #d8baa7 !important;
+}
+
+.btn-login{
+    margin-top: 20px !important;
+    font-size: 1rem !important;
 }
